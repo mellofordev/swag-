@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Listen ",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "media/song_logo/swaglogo1.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "S W A G ",
+  "short_name": "swag",
+  "start_url": "mello.pythonanywhere.com"
+}

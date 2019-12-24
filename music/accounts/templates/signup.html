@@ -1,0 +1,23 @@
+
+
+<title>Signup</title>
+
+{% block content %}
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<header class="w3-container w3-black">
+  <h1>mello</h1>
+</header>
+  <div class="w3-card">
+    <h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="w3-btn w3-round-xxlarge w3-black" type="submit">Sign up</button>
+  </form>
+     <p>Have an account ?</p>
+    <a class="w3-btn w3-round-xxlarge w3-black" href="{% url 'login' %}">Login</a>
+    </div>
+{% endblock %}
